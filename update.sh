@@ -20,7 +20,7 @@ else
 	echo "    Netdata python modules directory (to copy $SCRIPT_FILE)"
 	echo "    Netdata python modules configuration directory (to copy $CONFIG_FILE)"
 	echo "For example:"
-	echo "    ./install.sh /usr/libexec/netdata/python.d /etc/netdata/python.d"
+	echo "    ./update.sh /usr/libexec/netdata/python.d /etc/netdata/python.d"
 	echo "Don't forget to pull new changes from git repository of the module before run this script"
 fi
 if [ $# -eq 2 ] || [ $# -eq 0 ]; then
