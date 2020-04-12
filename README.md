@@ -12,7 +12,7 @@ This is a simple module for [Netdata](https://github.com/firehol/netdata) to add
 2. Run update.sh to install or update module to netdata root
 
 3. Make sure the /var/log/auth.log is readable for the user netdata, e.g. by 
-   chgrp -G adm netdata
+   usermod -G adm netdata
 
 4. Control if the module is working by running as user netdata:
 
